@@ -1,9 +1,7 @@
+# On ignore les dossiers lourds ou générés automatiquement
 node_modules/
 dist/
-src/
-vite.config.js
-package.json
-package-lock.json
-README.md
-SPEC.md
-AGENTS.md
+
+# On ignore les fichiers systèmes inutiles
+.DS_Store
+.env.local
