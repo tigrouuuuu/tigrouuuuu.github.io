@@ -1,0 +1,170 @@
+.home {
+  min-height: calc(100vh - 80px);
+}
+
+.hero {
+  position: relative;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.gradientOrb1 {
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+  filter: blur(60px);
+  animation: float 20s ease-in-out infinite;
+}
+
+.gradientOrb2 {
+  position: absolute;
+  bottom: -30%;
+  left: -20%;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
+  filter: blur(80px);
+  animation: float 25s ease-in-out infinite reverse;
+}
+
+.gridPattern {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(30px, -30px) rotate(5deg); }
+  66% { transform: translate(-20px, 20px) rotate(-5deg); }
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 var(--space-lg);
+  max-width: 900px;
+}
+
+.role {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-lg);
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: var(--space-md);
+  background: linear-gradient(135deg, var(--color-text) 0%, var(--color-text-secondary) 50%, var(--color-text-muted) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xl);
+}
+
+.shortBio {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  max-width: 500px;
+  margin: 0 auto var(--space-2xl);
+  line-height: 1.7;
+}
+
+.scrollIndicator {
+  position: absolute;
+  bottom: var(--space-2xl);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scrollLine {
+  width: 2px;
+  height: 40px;
+  background: var(--color-text);
+  border-radius: 1px;
+  transform-origin: top;
+}
+
+.about {
+  padding: var(--space-4xl) 0;
+}
+
+.aboutContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.aboutCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3xl);
+}
+
+.aboutTitle {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xl);
+  color: var(--color-text);
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.aboutParagraph {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .heroContent {
+    padding: 0 var(--space-md);
+  }
+  
+  .aboutCard {
+    padding: var(--space-xl);
+  }
+  
+  .aboutTitle {
+    font-size: 1.5rem;
+  }
+}

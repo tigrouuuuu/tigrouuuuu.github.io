@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "slug": "my-first-project",
+    "title": "My First Project",
+    "summary": "A modern web application to manage my daily tasks.",
+    "description": "This project was designed to simplify daily task management. The goal was to create an intuitive and fast interface for tracking activities.\n\n## Features\n\n- Add and delete tasks\n- Organization by categories\n- Automatic synchronization\n- Responsive interface\n\n## Challenges\n\nOne of the main challenges was optimizing performance while maintaining a smooth user experience.",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "status": "completed",
+    "image": "/images/project-1.jpg",
+    "links": {
+      "live": "https://example.com",
+      "github": "https://github.com"
+    },
+    "files": [],
+    "timeSpent": "3 weeks",
+    "idea": "The idea came from seeking a simple solution to organize my daily routine.",
+    "timeline": [
+      { "step": "Concept", "date": "January 2024" },
+      { "step": "Development", "date": "February 2024" },
+      { "step": "Release", "date": "March 2024" }
+    ],
+    "createdAt": "2024-01-15",
+    "updatedAt": "2024-03-20"
+  }
+]
