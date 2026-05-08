@@ -1,0 +1,9 @@
+node_modules/
+dist/
+src/
+vite.config.js
+package.json
+package-lock.json
+README.md
+SPEC.md
+AGENTS.md
