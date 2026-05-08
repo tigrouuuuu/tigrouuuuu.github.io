@@ -1,26 +1,25 @@
 [
   {
     "id": "1",
-    "slug": "my-first-project",
-    "title": "My First Project",
-    "summary": "A modern web application to manage my daily tasks.",
-    "description": "This project was designed to simplify daily task management. The goal was to create an intuitive and fast interface for tracking activities.\n\n## Features\n\n- Add and delete tasks\n- Organization by categories\n- Automatic synchronization\n- Responsive interface\n\n## Challenges\n\nOne of the main challenges was optimizing performance while maintaining a smooth user experience.",
-    "technologies": ["React", "Node.js", "MongoDB"],
-    "status": "completed",
-    "image": "/images/project-1.jpg",
+    "slug": "asl-translation",
+    "title": "ASL Translation",
+    "summary": "Real-time American Sign Language letter recognition using deep learning and MediaPipe hand tracking.",
+    "description": "ASL Translation is a real-time system that uses a deep learning model to interpret American Sign Language letters through the user's webcam.\n\n## How it works\n\n- MediaPipe Hand Landmarker detects 21 key points on the user's hand\n- These landmarks are preprocessed and fed into a trained deep learning model\n- The model predicts which ASL letter the user is signing\n\n## Features\n\n- Real-time hand tracking via webcam\n- Deep learning model for letter classification\n- MediaPipe integration for robust landmark detection\n- Clean interface showing prediction results\n\n## Future improvements\n\n- Extend the model to recognize full words and phrases\n- Improve prediction accuracy with more training data\n- Add support for dynamic gestures (movement-based signs)",
+    "technologies": ["Python", "TensorFlow", "MediaPipe", "OpenCV", "Deep Learning"],
+    "status": "in-progress",
+    "image": "",
     "links": {
-      "live": "https://example.com",
-      "github": "https://github.com"
+      "github": "https://github.com/tigrouuuuu"
     },
     "files": [],
-    "timeSpent": "3 weeks",
-    "idea": "The idea came from seeking a simple solution to organize my daily routine.",
+    "timeSpent": "in progress",
+    "idea": "The goal is to bridge communication gaps by enabling real-time translation of ASL letters using computer vision and deep learning.",
     "timeline": [
-      { "step": "Concept", "date": "January 2024" },
-      { "step": "Development", "date": "February 2024" },
-      { "step": "Release", "date": "March 2024" }
+      { "step": "Concept", "date": "March 2025" },
+      { "step": "Model Training", "date": "April 2025" },
+      { "step": "Integration", "date": "May 2025" }
     ],
-    "createdAt": "2024-01-15",
-    "updatedAt": "2024-03-20"
+    "createdAt": "2025-03-01",
+    "updatedAt": "2025-05-01"
   }
 ]
