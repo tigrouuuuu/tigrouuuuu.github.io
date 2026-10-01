@@ -21,5 +21,28 @@
     ],
     "createdAt": "2025-03-01",
     "updatedAt": "2025-05-01"
+  },
+  {
+    "id": "2",
+    "slug": "espoir-en-soie",
+    "title": "Espoir En Soie",
+    "summary": "Design and development of the official website for the Espoir En Soie association.",
+    "description": "Espoir En Soie is the official website for the non-profit association, designed to showcase their mission, team, and activities, while providing a platform for users to support their cause.\n\n## Project Overview\n\n- Created a multi-lingual, responsive interface tailored to the association's identity\n- Implemented interactive elements like a custom image slider and dynamic cards\n- Structured the navigation to clearly present the team, goals, and donation options\n\n## Features\n\n- Custom responsive design (HTML/CSS/JS)\n- Multi-language support (French and English)\n- Custom image slider and interactive UI elements\n- Accessible and intuitive navigation\n\n## Technical Details\n\n- Built entirely with vanilla web technologies for fast loading times and simple maintenance\n- Integrated FontAwesome for iconography\n- Mobile-friendly design approach",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Web Design"],
+    "status": "completed",
+    "image": "",
+    "links": {
+      "live": "https://espoirensoie.fr"
+    },
+    "files": [],
+    "timeSpent": "Completed",
+    "idea": "To provide the Espoir En Soie association with a strong and accessible digital presence to help them communicate their mission and gather support for their projects in Cambodia.",
+    "timeline": [
+      { "step": "Initial Conception & Design", "date": "Early 2024" },
+      { "step": "Development & Integration", "date": "Mid 2024" },
+      { "step": "Launch & Deployment", "date": "Late 2024" }
+    ],
+    "createdAt": "2024-01-15",
+    "updatedAt": "2024-10-01"
   }
 ]
